@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff00;
+ 
+}
+.navbar-light .navbar-nav .color{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+}
+
+
+.Titulo{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 800;
+    
+}
+.TituloPrincipal{
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Montserrat';
+        font-size: 3em;
+        color: #000000;
+        margin-top: 15px;
+    
+} 
+.card-body .colorCeleste{
+    background-color: #55AFC7;
+    color: #000000f1;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    
+    
+    
+
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10px 20px;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../assets/img/Shiny\ Overlay.svg);
+    background-size: cover;
+}
+.ContainerFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.boxFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.boxFooter .logo img{
+    width: 180px;
+
+}
+.boxFooter h2{
+    margin-bottom: 30px;
+    color: #000000;
+    font-weight: 700;
+}
+.boxFooter a{
+    margin-top: 10px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 2px;
+}
+.boxFooter a:hover{
+    opacity: 0.8;
+}
+.boxFooter a .fab{
+    font-size: 20px;
+}
+.boxCopyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.boxCopyright p{
+    margin-top: 20px;
+    color: #000000;
+}
+.boxCopyright hr{
+    border: none;
+    height: 2px;
+    color: #000000;
+}
+
+/*media queries*/
+
+@media screen and (min-width: 820px) and (max-width: 1180px){
+     
+    }
