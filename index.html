@@ -18,12 +18,19 @@
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
+    <!--Boton Flotante-->
+    <div class="container-boton">
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <img class="boton" src="/assets/img/icono.png" alt="Boton flotante de whatsapp">
+        </a>
+    </div>
     <header class="container-fluid">
+        <!-- Inicio del Nav-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <a class="navbar-brand" href="#">
-                        <img src="./assets/img/Logo.png" alt="" width="120" height="120">
+                        <img src="./assets/img/Logo.png" alt="Logo de la empresa" width="120" height="120">
                     </a></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,12 +53,12 @@
                         <li class="nav-item">
                             <a class="nav-link color" aria-current="page" href="./pages/contacto.html">Contacto</a>
                         </li>
-                        
                     </ul>
                 </div>
             </div>
         </nav>
-        
+        <!-- Final del Nav-->
+        <hr>  
     </header>
     <main class="container-fluid pb-5">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -65,13 +72,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/assets/img/pc1.jpg" class="d-block w-100" alt="...">
+                    <img src="/assets/img/pc1.jpg" class="d-block w-100" alt="Imagen de perisfericos" loading="lazy">
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/img/pc .jpg" class="d-block w-100" alt="...">
+                    <img src="/assets/img/pc .jpg" class="d-block w-100" alt="Imagen de gabinetes" loading="lazy">
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/img/presentaciones0_5947.jpg" class="d-block w-100" alt="...">
+                    <img src="/assets/img/presentaciones0_5947.jpg" class="d-block w-100" alt="Imagen armando un presupuesto con nosotros" loading="lazy">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -85,67 +92,57 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <section class="productos"> 
+        <!-- Productos destacados -->
         <div>
             <h1 class="Titulo">Productos Destacados</h1>
         </div>
-        <div class="cartas container py-5">
-        <div class="row row-cols-1 row-cols-md-4 g-3 py-5">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/img/ARMADOS11HERTX.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Equipo intel i7</h5>
-                        <p class="card-text">Equipo intel i7 12700f / RTX 3080 / 16gb Ram / SSD 240gb / Case RGB</p>
-                        <p><b>USD $1.839,00</b></p>
-                        <a href="/pages/productos.html" class="btn colorCeleste">Leer más</a>
-                    </div> 
+        <section class="Cartas">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/ARMADOS11HERTX.jpg" class="card-img-top" alt="Equipo intel hrtx">
+                <div class="card-body">
+                    <h5 class="card-title">Equipo intel i7</h5>
+                    <p class="card-text">Equipo intel i7 12700f / RTX 3080 / 16gb Ram / SSD 240gb / Case RGB</p>
+                    <p><b>USD $1.839,00</b></p>
+                    <a href="/pages/productos.html" class="btn colorCeleste" target="_blank">Leer más</a>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem; ">
-                    <img src="./assets/img/EQUIPOSARMADOSINTEL10GTX.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Equipo intel i3</h5>
-                        <p class="card-text">Equipo intel i3 10100f / GT 1030 V2 / 8Gb Ram / ssd 240gb / 3 fans rgb</p>
-                        <p><b>USD $549,00</b></p>
-                        <a href="/pages/productos.html" class="btn colorCeleste">Leer más</a>
-                    </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/EQUIPOSARMADOSINTEL10GTX.jpg" class="card-img-top" alt="Equipo Intel gtx" loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">Equipo intel i3</h5>
+                    <p class="card-text">Equipo intel i3 10100f / GT 1030 V2 / 8Gb Ram / ssd 240gb / 3 fans rgb</p>
+                    <p><b>USD $549,00</b></p>
+                    <a href="/pages/productos.html" class="btn colorCeleste" target="_blank">Leer más</a>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/img/EQUIPOSARMADOSAMDRX-1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Equipo AMD Ryzen 3</h5>
-                        <p class="card-text">Equipo AMD Ryzen 3 3200g / 8gb Ram 3000mhz / SSD 240Gb / 3 fans rgb<p>
-                        <p><s>USD $890.00</s> <b>USD 399,00</b></p>
-                        <a href="/pages/productos.html" class="btn colorCeleste">Leer más</a>
-                    </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/AMD Ryzen 5.jpg" class="card-img-top" alt="Equipo AMD" loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">Equipo AMD Ryzen 3</h5>
+                    <p class="card-text">Equipo AMD Ryzen 3 3200g / 8gb Ram 3000mhz / SSD 240Gb / 3 fans rgb
+                    <p>
+                    <p><s>USD $890.00</s> <b>USD 399,00</b></p>
+                    <a href="/pages/productos.html" class="btn colorCeleste" target="_blank">Leer más</a>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/img/EQUPOINTEL.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Equipo Intel Core I5</h5>
-                        <p class="card-text">Equipo intel i5 11700f 10400f Pro Gamer 16gb / SSD / RTX3050</p>
-                        <p><s>USD $1.539,00</s>  <b>USD $890.00</b></p>
-                        <a href="/pages/productos.html" class="btn colorCeleste">Leer más</a>
-                    </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/EQUPOINTEL.jpg" class="card-img-top" alt="Equipo intel" loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">Equipo Intel Core I5</h5>
+                    <p class="card-text">Equipo intel i5 11700f 10400f Pro Gamer 16gb / SSD / RTX3050</p>
+                    <p><s>USD $1.539,00</s> <b>USD $890.00</b></p>
+                    <a href="/pages/productos.html" class="btn colorCeleste" target="_blank">Leer más</a>
                 </div>
             </div>
-        </div>
-    </div>
-    </section>
-        
-        
+        </section>
+    <!-- Productos destacados Final-->
     </main>
+    <!--Inicio del Footer-->
     <footer>
         <div class="ContainerFooter">
             <div class="boxFooter">
                 <div class="logo">
-                    <a href="index.html"><img src="./assets/img/Logo.png" alt=""></a>
+                    <a href="index.html"><img src="./assets/img/Logo.png" alt="Logo de la empresa"></a>
                 </div>
             </div>
             <div class="boxFooter">
@@ -156,16 +153,15 @@
             <a href="./pages/preguntasfrecuentes.html">Preguntas Frecuentes</a>
             <a href="./pages/contacto.html">Contacto</a>
             </div>
-
             <div class="boxFooter">
                 <h2>Redes Sociales</h2>
-                <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/marcos-sosa-b84389210/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                <a href="https://www.instagram.com/marcossosa17/?hl=es" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://github.com/marcos-161616" target="_blank"><i class="fa-brands fa-github" ></i> GitHub</a>
             </div>
             <div class="boxFooter">
                 <h2>Contacto</h2>
-                <a href="#"><i class="fa-solid fa-clock"></i> Lunes a viernes 10:00–18:00</a>
+                <a href="#"><i class="fa-solid fa-clock " ></i> Lunes a viernes 10:00–18:00</a>
                 <a href="#"><i class="fa-solid fa-location-dot"></i> Montevideo-Uruguay</a>
                 <a href="#"><i class="fa-solid fa-envelope"></i> marcosss_96@hotmai.com</a>
             </div>
@@ -174,9 +170,8 @@
             <hr>
             <p>Todos los derechos reservados <b>MSCompu © 2023</b> | Diseño Web Uruguay</p>
         </div>
-
-
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Final del Footer-->
 </body>
+<script src="./js/bootstrap.bundle.min.js"></script>
 </html>
