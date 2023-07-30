@@ -14,14 +14,20 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-
 <body>
+    <!--Boton Flotante-->
+    <div class="container-boton">
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <img class="boton" src="/assets/img/icono.png" alt="Boton flotante de whatsapp">
+        </a>
+    </div>
     <header class="container-fluid">
+    <!-- Inicio del Nav-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
                 <a class="navbar-brand" href="/index.html">
-                    <img src="../assets/img/Logo.png" alt="" width="120" height="120">
+                    <img src="../assets/img/Logo.png" alt="Logo de la empresa" width="120" height="120">
                 </a></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,16 +55,43 @@
             </div>
         </div>
     </nav>
-    </header>
-    <main class="container-fluid">
-        <h1 class="Titulo">Sobre Nosotros</h1>
+    <!-- Final del Nav-->
+    <hr>
+    </header> 
+           <!--Contenido Sobre Nosotros-->
+    <main class="container-fluid" id="hero">
+            <div class="NosotrosTitulo">
+            <h1>Sobre Nosotros</h1>
+            <p>En MSCompu, nuestra pasión por la tecnología nos ha llevado a dar el salto al emocionante mundo de la venta de
+            computadoras</p>
+            </div>
+            <div class="Container">
+                <section class="SobreNosotros">
+                    <div class="NosotrosImagen">
+                        <img src="/assets/img/computer-custom-electronic.jpg" alt="Imagen de gabinete">
+                    </div>
+                    <div class="NosotrosContenido">
+                        <h2>Nuestra Misión</h2>
+                        <p>Nuestra misión es ser tu aliado tecnológico confiable, brindándote las últimas innovaciones en equipos informáticos y
+                        accesorios a precios competitivos. Queremos ser la opción número uno para aquellos que buscan potenciar su experiencia
+                        digital con productos de primera categoría y un servicio excepcional.</p>
+                    </div>
+
+                </section>
+            </div>
+            <video muted autoplay loop>
+                <source src="/assets/video/network_-_12716 (1440p).mp4" type="video/mp4"  alt="Video de fondo " loading="lazy">
+            </video>
+            <div class="capa"></div>
     </main>
-    
+    <!--Final del contenido Sobre Nosotros-->
+
+    <!--Inicio del Footer-->
     <footer>
         <div class="ContainerFooter">
             <div class="boxFooter">
                 <div class="logo">
-                    <a href="/index.html"><img src="../assets/img/Logo.png" alt=""></a>
+                    <a href="/index.html"><img src="../assets/img/Logo.png" alt="Logo de la empresa"></a>
                 </div>
             </div>
             <div class="boxFooter">
@@ -69,12 +102,12 @@
                 <a href="../pages/preguntasfrecuentes.html">Preguntas Frecuentes</a>
                 <a href="../pages/contacto.html">Contacto</a>
             </div>
-    
             <div class="boxFooter">
                 <h2>Redes Sociales</h2>
-                <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/marcos-sosa-b84389210/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                    Linkedin</a>
+                <a href="https://www.instagram.com/marcossosa17/?hl=es" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://github.com/marcos-161616" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
             <div class="boxFooter">
                 <h2>Contacto</h2>
@@ -87,12 +120,8 @@
             <hr>
             <p>Todos los derechos reservados <b>MSCompu © 2023</b> | Diseño Web Uruguay</p>
         </div>
-    
-    
     </footer>
+    <!--Final del Footer-->
 </body>
-
 <script src="../js/bootstrap.bundle.min.js"></script>
-
-
 </html>

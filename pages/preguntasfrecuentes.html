@@ -16,14 +16,20 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-
 <body>
+    <!--Boton Flotante-->
+    <div class="container-boton">
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <img class="boton" src="/assets/img/icono.png" alt="Boton flotante de whatsapp">
+        </a>
+    </div>
     <header class="container-fluid">
+        <!-- Inicio del Nav-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <a class="navbar-brand" href="/index.html">
-                        <img src="../assets/img/Logo.png" alt="" width="120" height="120">
+                        <img src="../assets/img/Logo.png" alt="Logo de la empresa" width="120" height="120">
                     </a></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,16 +53,115 @@
                         <li class="nav-item">
                             <a class="nav-link color" aria-current="page" href="../pages/contacto.html">Contacto</a>
                         </li>
-        
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- Final del Nav-->
+        <hr>
     </header>
-    <main class="container-fluid">
-        <h1 class="Titulo">Preguntas Frecuentes</h1>
-    </main>
+    <!-- Inicio de Preguntas Frecuentes -->
+     <main class="container-fluid">
+        <section class="container">
+             <div class="contenedorPreguntas">   
+                <h1 class="Titulo">FAQ –Preguntas Frecuentes</h1>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                    <label for="btn-acordeon1">
+                         ¿Hacen envíos al interior?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Sí, hacemos envíos a todo el país. Todos los días despachamos mercadería en encomiendas para que recibas tu producto lo
+                            antes posible.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                        <label for="btn-acordeon2">
+                            ¿Los productos tienen garantía?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Sí, el 99% de nuestros productos cuentan con garantía cuya duración depende del fabricante. (Por lo general de 1 a 3
+                            años). Leer “Política de garantía” para más información.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                        <label for="btn-acordeon3">
+                            ¿Qué costo tiene un envío?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>El costo de la encomienda queda a cargo del cliente, dependiendo de la agencia y el tamaño del bulto el precio. Dentro
+                            de Montevideo no estamos realizando envíos, sólo retiros por el local ubicado en zona Centro.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+                        <label for="btn-acordeon4">
+                            ¿Cuánto demora el armado de un equipo?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Actualmente tenemos una demora de 24hrs. Dependiendo de la demanda en el peor de los casos puede quedar para las
+                            siguientes 48hrs.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
+                        <label for="btn-acordeon5">
+                            ¿Cuánto demora el armado de un equipo?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Actualmente tenemos una demora de 24hrs. Dependiendo de la demanda en el peor de los casos puede quedar para
+                                las
+                                siguientes 48hrs.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
+                        <label for="btn-acordeon6">
+                            ¿Cuánto demora el armado de un equipo?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Actualmente tenemos una demora de 24hrs. Dependiendo de la demanda en el peor de los casos puede quedar para
+                                las
+                                siguientes 48hrs.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon7" class="btn-acordeon">
+                        <label for="btn-acordeon7">
+                            Quiero una PC a medida que no está publicada. ¿Por dónde pido el presupuesto?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Puedes contactarnos por nuestro formulario de contacto</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon8" class="btn-acordeon">
+                        <label for="btn-acordeon8">
+                        ¿Tienen local?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>No contamos con un local abierto al público. Operamos online y los productos se retiran en nuestro pick-up center en
+                            zona Centro.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon9" class="btn-acordeon">
+                        <label for="btn-acordeon9">
+                            Tengo un producto en garantía que me falló, ¿Qué hago?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Primero debe comunicarse con nosotros para coordinar la devolución del producto para su inspección y posteriormente
+                            comenzamos el tramite de garantía de su producto.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <!-- Final de Preguntas Frecuentes -->
 
+    <!--Inicio del Footer-->
     <footer>
         <div class="ContainerFooter">
             <div class="boxFooter">
@@ -75,9 +180,10 @@
     
             <div class="boxFooter">
                 <h2>Redes Sociales</h2>
-                <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/marcos-sosa-b84389210/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                    Linkedin</a>
+                <a href="https://www.instagram.com/marcossosa17/?hl=es" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://github.com/marcos-161616" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
             <div class="boxFooter">
                 <h2>Contacto</h2>
@@ -90,11 +196,8 @@
             <hr>
             <p>Todos los derechos reservados <b>MSCompu © 2023</b> | Diseño Web Uruguay</p>
         </div>
-    
-    
     </footer>
+    <!--Final del Footer-->
 </body>
-
 <script src="../js/bootstrap.bundle.min.js"></script>
-
 </html>

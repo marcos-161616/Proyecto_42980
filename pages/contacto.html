@@ -18,14 +18,20 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-
 <body>
+    <!--Boton Flotante-->
+    <div class="container-boton">
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <img class="boton" src="/assets/img/icono.png" alt="Boton flotante de whatsapp">
+        </a>
+    </div>
     <header class="container-fluid">
+    <!-- Inicio del Nav-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <a class="navbar-brand" href="/index.html">
-                    <img src="../assets/img/Logo.png" alt="" width="120" height="120">
+                    <img src="../assets/img/Logo.png" alt="Logo de la empresa" width="120" height="120">
                 </a></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,14 +55,14 @@
                     <li class="nav-item">
                         <a class="nav-link color active" aria-current="page" href="#">Contacto</a>
                     </li>
-    
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Final del Nav-->
+    <hr>
     </header>
     <main class="container-fluid">
-       
         <section>
         <h1 class="Titulo">Contacto</h1>
         <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
@@ -65,26 +71,68 @@
             width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="Contenedor_Formulario">
-            <div class="Informacion_Formulario">
-                 <h2>Contactáctanos</h2>
-                 <p>Si desea saber mas de nosotros deja tu mensaje</p>
+    </section>
+    <section class="container contactos">
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <p>Nuestra página web cuenta con un formulario de contacto fácil de usar, donde puedes ingresar tu nombre, dirección de
+            correo electrónico y mensaje. Al enviarnos tu consulta, nos comprometemos a responder en el menor tiempo posible,
+            generalmente dentro de las 24 horas hábiles. Valoramos tu tiempo y nos esforzamos por proporcionarte una atención rápida
+            y precisa.</p>
         </div>
-         <form action="#" autocomplete="off">
-            <input type="text" name="Nombre" placeholder="Ingresa tu nombre">
-            <input type="email" name="Email" placeholder="Ingresa tu correo">
-            <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
-            <input type="submit" name="Enviar" >
-        </form>
-
-    </div>
+        <div class="containerInfo">
+            <div class="contactoInfo">
+                <div class="box">
+                    <div class="icono"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="texto">
+                        <h3>Dirección</h3>
+                        <p>4680 Rincon-La Paz, <br>Montevideo,Uruguay</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icono"><i class="fa-solid fa-phone"></i></div>
+                    <div class="texto">
+                        <h3>Telefono</h3>
+                        <p>+598099905512</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icono"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="texto">
+                        <h3>Email</h3>
+                        <p>marcosss_96@hotmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactoFormulario">
+                <form action="">
+                    <h2>Contáctanos</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Ingresa tu nombre<span>                                               
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Ingresa tu correo<span>
+                    </div>
+                    <div class="inputBox">
+                       <textarea required="required"></textarea>
+                        <span>Escribenos un mensaje<span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
     </main>
+    <!--Footer Inicio-->
     <footer>
         <div class="ContainerFooter">
             <div class="boxFooter">
                 <div class="logo">
-                    <a href="/index.html"><img src="../assets/img/Logo.png" alt=""></a>
+                    <a href="/index.html"><img src="../assets/img/Logo.png" alt="Logo de la empresa"></a>
                 </div>
             </div>
             <div class="boxFooter">
@@ -95,12 +143,12 @@
                 <a href="./preguntasfrecuentes.html">Preguntas Frecuentes</a>
                 <a href="#">Contacto</a>
             </div>
-    
             <div class="boxFooter">
                 <h2>Redes Sociales</h2>
-                <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/marcos-sosa-b84389210/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                    Linkedin</a>
+                <a href="https://www.instagram.com/marcossosa17/?hl=es" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://github.com/marcos-161616" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
             <div class="boxFooter">
                 <h2>Contacto</h2>
@@ -113,11 +161,8 @@
             <hr>
             <p>Todos los derechos reservados <b>MSCompu © 2023</b> | Diseño Web Uruguay</p>
         </div>
-    
-    
     </footer>
+    <!--Final del footer-->
 </body>
-
 <script src="../js/bootstrap.bundle.min.js"></script>
-
 </html>
