@@ -2,3 +2,32 @@ $color-primario: #000000;
 $color-secundario: #f7f7f7;
 $tipografia-general: 'Montserrat', sans-serif;
 $contenedor-flex: flex;
+
+
+
+/*maps*/
+
+$Boton: (
+    color: #2e6329,
+    posición: fixed,
+    border: 1px solid,
+);
+
+$Cartas-Productos:(
+      contenido: center,
+      item: center,
+);
+
+$Cartas: (
+    dirección: column,
+    ontenidos: space-between,
+    borde-radius: 5px,
+    cursor: pointer,
+);
+
+$contenedor-Preguntas:(
+    ancho: 100%
+    ancho-maximo: 800px,
+    margen: auto,
+    margen-top: 80px
+);

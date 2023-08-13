@@ -1,3 +1,4 @@
+/*maps*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
   margin: 0;
@@ -192,7 +193,7 @@ video {
 }
 /* Preguntas frecuentes*/
 .contenedorPreguntas {
-  width: 100%;
+  width: 100% ancho-maximo;
   max-width: 800px;
   margin: auto;
   margin-top: 80px;
@@ -463,6 +464,37 @@ video {
     width: 100%;
   }
 }
+/*Error 404*/
+.container-Error {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.container-Error img {
+  width: 50%;
+}
+.container-Error h1 {
+  color: #000000;
+  font-size: 20px;
+  padding: 20px;
+}
+.container-Error .volver {
+  padding: 13px 30px;
+  border-radius: 15px;
+  border: none;
+  background: rgb(5, 129, 245);
+  color: #f7f7f7;
+  text-decoration: none;
+}
+@media screen and (max-width: 630px) {
+  .container-Error h1 {
+    font-size: 16px;
+  }
+}
+
 /* Footer*/
 footer {
   width: 100%;
